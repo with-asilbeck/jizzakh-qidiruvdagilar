@@ -1,0 +1,40 @@
+.section-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    position: absolute;
+    min-height: 88vh;
+    min-width: 201.5vh;
+    padding: 2rem;
+    /* border: 2px solid black;
+    border-radius: 8px; */
+    top: 11%;
+    left: 12px;
+}
+
+.support{
+    display: flex;
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    top: 650px;
+    left: 1430px;
+}
+
+.notification{
+    display: flex;
+    position: fixed;
+    width: 28px;
+    height: 28px;
+    top: 640px;
+    left: 1475px;
+}
+
+.search-bar{
+    display: flex;
+    position: fixed;
+    margin-top: -93px;
+    margin-left: 1020px;
+    font-size: 20px;
+    z-index: 1000;
+}
