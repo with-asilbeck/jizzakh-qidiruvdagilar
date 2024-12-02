@@ -1,11 +1,11 @@
 .card-container{
     display: flex;
     width: 24rem;
+    top: 50px;
 }
 @media (max-width: 768px){
     .card-container{
         display: flex;
-        flex-direction: column;
         width: 24rem;
     }
 }

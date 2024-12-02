@@ -6,6 +6,7 @@ const CardContainer = ({info}) => {
   return (
     <Card
     className='card-container'
+    style={{backgroundColor: 'rgb(212, 212, 212)'}}
 >
   <CardBody>
     <CardImg src={info.img}/>
