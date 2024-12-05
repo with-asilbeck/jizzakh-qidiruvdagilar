@@ -1,7 +1,7 @@
 .card-container{
     display: flex;
     width: 24rem;
-    top: 50px;
+    top: 230px;
 }
 @media (max-width: 768px){
     .card-container{

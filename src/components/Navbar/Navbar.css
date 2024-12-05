@@ -52,6 +52,11 @@
     top: 25px;
     left: 600px;
 }
+@media (max-width: 767px) {
+    .icon{
+        left: 190px;
+    }
+}
 
 .upper-navbar{
     display: flex;

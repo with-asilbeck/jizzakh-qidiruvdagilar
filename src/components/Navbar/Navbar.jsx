@@ -19,21 +19,20 @@ const NavbarContainer = () => {
         <img src={search_icon} alt="icon" className='icon'/>
         
         <div class="dropdown">
-         <button class="dropdown-btn">Viloyatlar</button>
+         <button class="dropdown-btn">Tumanlar</button>
          <div class="dropdown-content">
-          <a href="#">Andijon</a><br></br>
-          <a href="#">Samarqand</a><br></br>
-          <a href="#">Buxoro</a><br></br>
-          <a href="#">Jizzax</a><br></br>
-          <a href="#">Fargona</a><br></br>
-          <a href="#">Xorazm</a><br></br>
-          <a href="#">Namangan</a><br></br>
-          <a href="#">Navoiy</a><br></br>
-          <a href="#">Qashqadaryo</a><br></br>
-          <a href="#">Qoraqalpogiston Res.</a><br></br>
-          <a href="#">Surxondaryo</a><br></br>
-          <a href="#">Sirdaryo</a><br></br>
-          <a href="#">Toshkent</a><br></br>
+          <a href="#">Arnasoy</a><br></br>
+          <a href="#">G'allaorol</a><br></br>
+          <a href="#">Forish</a><br></br>
+          <a href="#">Yangiobod</a><br></br>
+          <a href="#">Paxtakor</a><br></br>
+          <a href="#">Mirzacho'l</a><br></br>
+          <a href="#">Zomin</a><br></br>
+          <a href="#">Zafarobod</a><br></br>
+          <a href="#">Zarbdor</a><br></br>
+          <a href="#">Sharof Rashidov</a><br></br>
+          <a href="#">Do'stlik</a><br></br>
+          <a href="#">Baxmal</a><br></br>
          </div>
        </div>
     </div>
