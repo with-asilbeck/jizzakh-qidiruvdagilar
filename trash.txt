@@ -1,0 +1,3 @@
+{information.map((info) => (
+        <CardContainer info={info}/>
+      ))}
