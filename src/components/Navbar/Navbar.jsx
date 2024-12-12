@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import './Navbar.css';
 import search_icon from './search-icon.png'
 import phone_call_icon from './phne-call.png'
-import './Navbar.css';
 
 const NavbarContainer = ({ onDistrictSelect }) => {
   const districts = [
@@ -22,16 +22,22 @@ const NavbarContainer = ({ onDistrictSelect }) => {
   return (
     <div className="navbar-container">
       <div className="title">JIZZAX VILOYATI IIB<br />JIZZAX QIDIRUVDAGI SHAXSLAR</div>
-      <a href="/" className="back">Orqaga</a>
+      {/* <a href="/" className="back">Orqaga</a> */}
+    <div className='upper-navbar'>
+           <div className='pc-icon'><img src={phone_call_icon} alt="phone-call" /></div>
+           <div className='contacts'>Navbatchilik qismi +998 72 226 03 02</div>
+           <div className='pc-icon'><img src={phone_call_icon} alt="phone-call" /></div>
+           <div className='contacts2'>Ishonch raqami 1002</div>
+    </div>
       <div className="dropdown">
         <button className="dropdown-btn">Tumanlar</button>
         <div className="dropdown-content">
+          <button onClick={() => onDistrictSelect('')}>Hammasi</button>
           {districts.map((district) => (
-            <button key={district} onClick={() => onDistrictSelect(district)}>
+            <button className="btn-town" key={district} onClick={() => onDistrictSelect(district)}>
               {district}
             </button>
           ))}
-          <button onClick={() => onDistrictSelect('')}>Hammasi</button>
         </div>
       </div>
     </div>
