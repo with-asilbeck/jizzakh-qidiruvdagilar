@@ -7,6 +7,7 @@
     align-items: stretch;
     justify-content: space-around;
     background-color: white;
+    gap: 50px;
 }
 
 .search-bar{
@@ -34,4 +35,37 @@
     height: 28px;
     top: 720px;
     left: 1590px;
+}
+
+@media (max-width: 767px) {
+    .search-bar {
+        margin-left: 15rem;
+        width: 150px;
+    }
+}
+@media (max-width: 675px) {
+    .search-bar {
+        margin-left: 10rem;
+        width: 150px;
+    }
+}
+@media (max-width: 571px) {
+    .search-bar {
+        margin-left: 9rem;
+        width: 145px;
+    }
+}
+@media (max-width: 480px) {
+    .search-bar {
+        margin-left: 6rem;
+        width: 130px;
+    }
+}
+@media (max-width: 400px) {
+    .search-bar {
+        margin-left: -8rem;
+        width: 200px;
+        height: 30px;
+        margin-top: 70px;
+    }
 }

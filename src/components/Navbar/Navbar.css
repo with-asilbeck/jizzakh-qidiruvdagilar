@@ -32,8 +32,9 @@
     left: 600px;
 }
 
-.navbar-container > .upper-navbar{
+.upper-navbar{
     display: flex;
+    position: relative;
     width: 100%;
     height: 50px;
     background-color: white;
@@ -66,8 +67,7 @@
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    position: absolute;
     margin-left: -20%;
     margin-top: 20px;
 }
@@ -105,61 +105,64 @@
     display: block;
 }
 
-@media (max-width: 768px) {
-    .navbar-container {
-      flex-direction: column;
-    }
-  
-    .upper-navbar {
-      flex-direction: column;
-      font-size: 12px;
-    }
-  
-    .contacts, .contacts2 {
-      flex: none;
-    }
-  
-    .dropdown-btn {
-      font-size: 12px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .title {
-      font-size: 16px;
-    }
-  
-    .dropdown {
-      margin: 5px 10px;
-    }
-  
-    .dropdown-btn {
-      padding: 8px;
-    }
-  }
 
-/* .title2{
+@media (max-width: 767px) {
+  .title {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 8%;
+  }
+}
+@media (max-width: 675px) {
+  .title {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 6%;
+  }
+}
+@media (max-width: 571px) {
+  .title {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 4%;
+  }
+  .dropdown-btn {
     display: flex;
-    position: absolute;
-    margin-top: 35px;
-    margin-left: -599px;
-    color: white;
-    font-size: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700;
-} */
-/* @media(min-width: 768px) {
-    .title2{
-        font-size: 28px;
-    }
-} */
-
-/* .back{
-    display: flexbox;
-    text-decoration: none;
-    color: black;
-    font-size: larger;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-left: 35px;
-} */
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 4%;
+  }
+  .dropdown-btn {
+    display: flex;
+    width: 80px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+  }
+}
+@media (max-width: 400px) {
+  .title {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 10%;
+  }
+  .dropdown-btn {
+    width: 80px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
+  }
+  .dropdown-content {
+    margin-left: -60px;
+  }
+}

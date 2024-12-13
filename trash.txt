@@ -1,3 +1,108 @@
 {information.map((info) => (
         <CardContainer info={info}/>
       ))}
+
+CARD CONTAINER
+      // import React from 'react'
+// import {Card, CardBody, CardTitle, CardSubtitle, CardText, CardImg, Button} from 'reactstrap'
+// import './Card.css'
+
+// const CardContainer = ({info}) => {
+//   return (
+//     <Card
+//     className='card-container'
+//     style={{backgroundColor: 'rgb(212, 212, 212)'}}
+// >
+//   <CardBody>
+//     <CardImg src={info.img}/>
+//     <CardTitle tag="h5">
+//       {info.name}
+//     </CardTitle>
+//     <CardSubtitle
+//       className="mb-2 text-muted"
+//       tag="h6"
+//     >
+//       {info.birthdate}<br></br>
+//       {info.town}
+//     </CardSubtitle>
+//     <CardText>
+//       {info.reason}
+//     </CardText>
+//   </CardBody>
+// </Card>
+//   )
+// }
+
+// export default CardContainer;
+
+SECTION CONTAINER
+  // const [information, setInfo] = useState([]);
+  // const [searchQuery, setSearchQuery] = useState('');
+  // const colRef = collection(db, 'wanted');
+  
+  // useEffect(() => {
+  //     const getInformation = async() => {
+  //         const data = await getDocs(colRef)
+  //         setInfo(data.docs.map((doc) => ({...doc.data(), id: doc.id })))
+  //       }
+  //       getInformation()
+  //     }, []) 
+    
+  //     const filteredInformation = information.filter((info) =>
+  //         Object.values(info)
+  //         .join(' ')
+  //         .toLowerCase()
+  //         .includes(searchQuery.toLowerCase())
+  //     );
+    
+  //     return (
+  //         <div className="section-container">
+      
+  //           <div className="search-bar">
+  //             <input
+  //         type="text"
+  //         placeholder="Qidirish..."
+  //         value={searchQuery}
+  //         onChange={(e) => setSearchQuery(e.target.value)}
+  //       />
+  //     </div>
+
+  //     {filteredInformation.map((info) => (
+  //         <CardContainer key={info.id} info={info} />
+  //       ))}
+  
+  //       <div className='support'>
+  //         <img src={Support} alt='support'/>
+  //       </div>
+  //       <div className="notification">
+  //         <img src={Notification} alt="notification" />
+  //       </div>
+  //     </div>
+  //   )
+// }
+
+/* .title2{
+    display: flex;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -599px;
+    color: white;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+} */
+/* @media(min-width: 768px) {
+    .title2{
+        font-size: 28px;
+    }
+} */
+
+/* .back{
+    display: flexbox;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 35px;
+} */
