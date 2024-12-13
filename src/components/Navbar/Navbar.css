@@ -160,9 +160,9 @@
     height: 50px;
     align-items: center;
     justify-content: center;
-    margin-left: -40px;
+    margin-left: -28px;
   }
   .dropdown-content {
-    margin-left: -50px;
+    margin-left: -38px;
   }
 }
