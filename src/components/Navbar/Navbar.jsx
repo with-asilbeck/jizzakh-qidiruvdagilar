@@ -5,18 +5,29 @@ import phone_call_icon from './phne-call.png'
 
 const NavbarContainer = ({ onDistrictSelect }) => {
   const districts = [
-    'Arnasoy',
-    'G\'allaorol',
-    'Forish',
-    'Yangiobod',
-    'Paxtakor',
-    'Mirzacho\'l',
-    'Zomin',
-    'Zafarobod',
-    'Zarbdor',
-    'Sharof Rashidov',
-    'Do\'stlik',
-    'Baxmal',
+    'Arnasoy t.',
+    'G\'allaorol t.',
+    'Forish t.',
+    'Yangiobod t.',
+    'Paxtakor t.',
+    'Mirzacho\'l t.',
+    'Zomin t.',
+    'Zafarobod t.',
+    'Zarbdor t.',
+    'Sharof Rashidov t.',
+    'Do\'stlik t.',
+    'Baxmal t.',
+    'Jizzax t.',
+    'Jizzax sh.',
+    'Xitoy----',
+    'Turkiya',
+    'Sirdaryo v.',
+    'Jizzax v.',
+    'Guliston sh.',
+    'Oqdaryo t.',
+    'Toshkent t.',
+    'Toshkent sh.',
+    'Samarqand v.',
   ];
 
   return (
@@ -30,7 +41,7 @@ const NavbarContainer = ({ onDistrictSelect }) => {
            <div className='contacts2'>Ishonch raqami 1002</div>
     </div>
       <div className="dropdown">
-        <button className="dropdown-btn">Tumanlar</button>
+        <button className="dropdown-btn">Hududlar</button>
         <div className="dropdown-content">
           <button onClick={() => onDistrictSelect('')}>Hammasi</button>
           {districts.map((district) => (

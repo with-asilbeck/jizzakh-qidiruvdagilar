@@ -41,12 +41,12 @@ import Notification from './notification.png'
           <CardContainer key={info.id} info={info} />
         ))}
 
-        <div className='support'>
+        {/* <div className='support'>
            <img src={Support} alt='support'/>
          </div>
          <div className="notification">
            <img src={Notification} alt="notification" />
-         </div>
+         </div> */}
       </div>
     );
   };
