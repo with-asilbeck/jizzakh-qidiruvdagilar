@@ -9,7 +9,7 @@ const NavbarContainer = ({ onDistrictSelect }) => {
     'Sharof Rashidov t.',
     'Arnasoy t.',
     'Baxmal t.',
-    'G\'allarol t.',
+    'G\'allaorol t.',
     'Do\'stlik t.',
     'Zarbdor t.',
     'Zafarobod t.',
